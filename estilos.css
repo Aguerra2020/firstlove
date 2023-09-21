@@ -1,0 +1,25 @@
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 14pt;
+  }
+  
+  .contenido {
+    display: flex; /* Utilizamos flexbox para alinear elementos horizontalmente */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+    padding: 20px; /* Agregamos espacio alrededor del contenido */
+    height: 10%;
+    
+  }
+  
+  .izquierda {
+    flex: 1; /* La parte izquierda ocupa el espacio restante */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14pt;
+    color: white;
+    margin-right: 20px; /* Agregamos un margen a la derecha para separar el texto de la imagen */
+    max-width: 50%;
+  }
+  
